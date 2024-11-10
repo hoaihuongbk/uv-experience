@@ -1,0 +1,87 @@
+[project]
+name = "uv-experience"
+version = "0.1.0"
+description = "A sample project to compare pip-compile and uv"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+
+small = [
+    "requests",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+]
+
+large = [
+    "optuna",
+    "s3fs",
+    "onnxruntime",
+    "tensorflow-serving-api",
+    "redis",
+    "flake8",
+    "python-Levenshtein",
+    "scikit-learn",
+    "isort",
+    "geopy",
+    "tensorflow_text",
+    "google",
+    "tqdm",
+    "mypy",
+    "textdistance",
+    "tensorflow-hub",
+    "unidecode",
+    "sentencepiece",
+    "xgboost",
+    "pandas==1.3.5",
+    "nltk",
+    "lightgbm",
+    "black",
+    "protobuf3",
+    "croniter",
+    "hiredis",
+    "aiohttp",
+    "scipy",
+    "awscli==1.29.77",
+    "langchain",
+    "protobuf==3.20.3",
+    "tensorflow-io",
+    "timezonefinder",
+    "python-geohash",
+    "deepcut",
+    "fasttext",
+    "boto3==1.28.77",
+    "pydocstyle",
+    "mmh3",
+    "xpinyin",
+    "tensorflow_ranking",
+    "tensorflow-recommenders",
+    "onnxmltools",
+    "pyarrow",
+    "matplotlib",
+    "jellyfish",
+    "torch",
+    "pygeohash",
+    "tensorflow-addons",
+    "aredis",
+    "fuzzywuzzy",
+    "gensim==4.3.3",
+    "implicit",
+    "scikit-surprise",
+    "openai",
+    "importlib-metadata",
+    "datadog",
+    "fire",
+    "deepctr",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
